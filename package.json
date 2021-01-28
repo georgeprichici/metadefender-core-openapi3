@@ -2,12 +2,12 @@
   "name": "metadefender-core",
   "version": "1.0.0",
   "dependencies": {
-    "@openapitools/openapi-generator-cli": "^1.0.12-4.3.0",
-    "@redocly/openapi-cli": "^0.12.5",
-    "js-yaml": "^3.13.1",
-    "openapi-snippet": "^0.8.1",
-    "redoc-cli": "^0.9.7",
-    "shelljs": "^0.8.4"
+    "@openapitools/openapi-generator-cli": "*",
+    "@redocly/openapi-cli": "*",
+    "js-yaml": "*",
+    "openapi-snippet": "*",
+    "redoc-cli": "*",
+    "shelljs": "*"
   },
   "private": true,
   "license": "MIT",
