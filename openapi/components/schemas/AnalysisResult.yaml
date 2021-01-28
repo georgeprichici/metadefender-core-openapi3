@@ -33,11 +33,11 @@ properties:
         items:
           type: string
           enum:
-            - enginedefinition
+            - enginedefinitions
             - configuration
             - sanitization
         example:
-          - enginedefinition
+          - enginedefinitions
           - configuration
           - sanitization
       processing_time:
