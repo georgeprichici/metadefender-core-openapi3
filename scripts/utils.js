@@ -54,7 +54,7 @@ const langExtMap = {
 exports.loadYAML = function(path) {
     try {
       let fileContents = fs.readFileSync(path, 'utf8');
-      let data = yaml.safeLoad(fileContents);
+      let data = yaml.load(fileContents);
               
       return data
   
